@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重音テト · Kasane Teto</title>
+<meta name="description" content="Фан-сайт про Касане Тето — певицу-химеру с бурами вместо хвостиков и багетом в руке.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+<div class="grid-overlay"></div>
+
+<nav class="nav">
+  <a href="#hero" class="logo">テト<span>0401</span></a>
+  <div class="links">
+    <a href="#who">Кто она</a>
+    <a href="#profile">Профиль</a>
+    <a href="#history">История</a>
+    <a href="#songs">Песни</a>
+    <a href="#facts">Факты</a>
+  </div>
+</nav>
+
+<header id="hero" class="hero">
+  <div class="drills">
+    <div class="drill left"></div>
+    <div class="drill right"></div>
+  </div>
+  <p class="jp">重音テト</p>
+  <h1 class="title" data-text="KASANE TETO">KASANE TETO</h1>
+  <p class="subtitle">Она — <span id="typed"></span><span class="caret">|</span></p>
+  <button id="baguetteBtn" class="btn">🥖 Получить багет</button>
+  <p class="counter">Багетов роздано: <b id="bagCount">0</b></p>
+  <a href="#who" class="scroll-hint">листай вниз ↓</a>
+</header>
+
+<div class="marquee"><div class="track">
+  <span>君は実に馬鹿だな ✦ KASANE TETO ✦ 0401 ✦ 🥖 ✦ TWIN DRILLS ✦ UTAU ✦ SYNTHESIZER V ✦ 重音テト ✦ </span>
+  <span>君は実に馬鹿だな ✦ KASANE TETO ✦ 0401 ✦ 🥖 ✦ TWIN DRILLS ✦ UTAU ✦ SYNTHESIZER V ✦ 重音テト ✦ </span>
+</div></div>
+
+<main>
+<section id="who" class="section">
+  <h2 class="reveal">Кто такая Тето?</h2>
+  <div class="cards">
+    <article class="card reveal">
+      <div class="icon">🎤</div>
+      <h3>Виртуальная певица</h3>
+      <p>Касане Тето — голосовой банк для синтеза пения. Её часто называют «вокалоидом», но формально она никогда не была Vocaloid: сначала Тето жила в бесплатной программе <b>UTAU</b>, а с 2023 года поёт ещё и в <b>Synthesizer V</b>.</p>
+    </article>
+    <article class="card reveal">
+      <div class="icon">🃏</div>
+      <h3>Шутка, ставшая звездой</h3>
+      <p>Тето придумали в 2008 году как первоапрельский розыгрыш: фанаты выдали её за «нового Vocaloid 03». Обман раскрылся, но персонаж так понравился людям, что для неё записали настоящий голос.</p>
+    </article>
+    <article class="card reveal">
+      <div class="icon">🌀</div>
+      <h3>Буры вместо хвостиков</h3>
+      <p>Главная фишка внешности — красные волосы, закрученные в два «бура» (twin drills). Плюс серо-красная форма в военном стиле и неизменный французский багет.</p>
+    </article>
+    <article class="card reveal">
+      <div class="icon">🎶</div>
+      <h3>Что она делает</h3>
+      <p>Поёт! Продюсеры пишут музыку, вводят ноты и текст, а голос Тето их исполняет. С ней созданы тысячи каверов и оригинальных песен — от милых до очень дерзких.</p>
+    </article>
+  </div>
+</section>
+
+<section id="profile" class="section">
+  <h2 class="reveal">Профиль персонажа</h2>
+  <div class="profile reveal">
+    <div class="stats">
+      <div class="stat"><span class="num" data-target="31">0</span><span class="label">лет (да, официально)</span></div>
+      <div class="stat"><span class="num" data-target="159.8" data-decimals="1">0</span><span class="label">см рост</span></div>
+      <div class="stat"><span class="num" data-target="47">0</span><span class="label">кг вес</span></div>
+      <div class="stat"><span class="num" data-target="401" data-pad="4">0</span><span class="label">номер / день рождения</span></div>
+    </div>
+    <ul class="info">
+      <li><b>Имя:</b> 重音テト (Kasane Teto)</li>
+      <li><b>Пол:</b> «химера» — официальная шутка из профиля</li>
+      <li><b>День рождения:</b> 1 апреля — День дурака</li>
+      <li><b>Любимая еда:</b> французский багет 🥖</li>
+      <li><b>Голос:</b> Оямано Маё (小山乃舞世)</li>
+      <li><b>Коронная фраза:</b> «Кими ва дзицу ни бака да на» — «Ты и правда дурак»</li>
+    </ul>
+  </div>
+</section>
+
+<section id="history" class="section">
+  <h2 class="reveal">История</h2>
+  <div class="timeline">
+    <div class="event reveal"><span class="year">2008</span><p>На 2channel рождается первоапрельский фейк: «Vocaloid 03 — Касане Тето». Сайты-«анонсы» выглядят настолько правдоподобно, что многие верят.</p></div>
+    <div class="event reveal"><span class="year">2008</span><p>Шутка раскрыта, но поклонники не сдаются: голос записывают по-настоящему и выпускают бесплатный банк для UTAU.</p></div>
+    <div class="event reveal"><span class="year">2010-е</span><p>Тето становится самой известной UTAU-певицей. Мем «Fukkireta» с крутящимся багетом облетает весь интернет.</p></div>
+    <div class="event reveal"><span class="year">2023</span><p>Выходит Kasane Teto для Synthesizer V с ИИ-голосом. Звучание становится заметно естественнее.</p></div>
+    <div class="event reveal"><span class="year">2023–24</span><p>Хиты «Override» и «Mesmerizer» (вместе с Мику) приносят Тето новую волну популярности по всему миру.</p></div>
+  </div>
+</section>
+
+<section id="songs" class="section">
+  <h2 class="reveal">Песни, которые стоит знать</h2>
+  <div class="songs">
+    <div class="song reveal"><div class="vinyl"></div><div><h3>重音テトの吹っ切れた</h3><p>Fukkireta — тот самый мем с багетом</p></div></div>
+    <div class="song reveal"><div class="vinyl"></div><div><h3>オーバーライド</h3><p>Override — Ёсида Ясэй, 2023</p></div></div>
+    <div class="song reveal"><div class="vinyl"></div><div><h3>メズマライザー</h3><p>Mesmerizer — 32ki, Тето × Мику, 2024</p></div></div>
+    <div class="song reveal"><div class="vinyl"></div><div><h3>重音テトの曲を聴け</h3><p>Ищи «Kasane Teto» на YouTube — там тысячи каверов</p></div></div>
+  </div>
+</section>
+
+<section id="facts" class="section">
+  <h2 class="reveal">Случайный факт о Тето</h2>
+  <div class="fact-box reveal">
+    <p id="factText">Нажми кнопку, чтобы узнать что-то новое!</p>
+    <button id="factBtn" class="btn">🌀 Ещё факт</button>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <p>Фан-сайт сделан с любовью к буровым хвостикам 🌀 · Kasane Teto © TWINDRILL</p>
+  <p class="small">Нажми на любое место фона — будет сюрприз.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
